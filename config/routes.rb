@@ -12,4 +12,5 @@ Rails.application.routes.draw do
 
   get 'kittens/:size' => 'pages#kittens', as: 'kittens'
 
+get '/secrets/:magic_word' => 'pages#secrets', as:'secrets'
 end
